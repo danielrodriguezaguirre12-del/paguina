@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONAR - Tu Portal de Musica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Seccion de Inicio -->
+    <section id="inicio" class="seccion-inicio">
+        <div class="inicio-contenido">
+            <div class="inicio-logo">
+                <span class="inicio-icono">&#9835;</span>
+                <h1>SONAR</h1>
+            </div>
+            <p class="inicio-descripcion">Tu portal de musica favorito. Descubre y escucha las mejores canciones de tus artistas preferidos.</p>
+            <a href="#menu" class="boton-comenzar">Comenzar a Escuchar</a>
+        </div>
+    </section>
+
+    <!-- Menu Principal -->
+    <main id="menu" class="contenedor-principal">
+        <header class="encabezado">
+            <a href="#inicio" class="enlace-inicio">Ir al Inicio</a>
+            <div class="logo">
+                <span class="logo-icono">&#9835;</span>
+                <span class="logo-texto">SONAR</span>
+            </div>
+            <p class="eslogan">Tu portal de musica favorito</p>
+        </header>
+
+        <h2 class="titulo">Selecciona un Artista</h2>
+
+        <div class="cuadricula-tarjetas">
+            <!-- Bad Bunny -->
+            <a href="#badbunny" class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="imagenes/bad-bunny.png" alt="Bad Bunny">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3>Bad Bunny</h3>
+                    <p>Reggaeton / Latino</p>
+                    <span class="cantidad-canciones">4 canciones</span>
+                </div>
+            </a>
+
+            <!-- Nicky Jam -->
+            <a href="#nickyjam" class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="imagenes/nicky-jam.png" alt="Nicky Jam">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3>Nicky Jam</h3>
+                    <p>Reggaeton / Urbano</p>
+                    <span class="cantidad-canciones">1 cancion</span>
+                </div>
+            </a>
+
+            <!-- Billie Eilish -->
+            <a href="#billieeilish" class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="imagenes/billie-eilish.png" alt="Billie Eilish">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3>Billie Eilish</h3>
+                    <p>Pop / Alternativo</p>
+                    <span class="cantidad-canciones">4 canciones</span>
+                </div>
+            </a>
+
+            <!-- Shakira -->
+            <a href="#shakira" class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="imagenes/shakira.png" alt="Shakira">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3>Shakira</h3>
+                    <p>Pop Latino / Dance</p>
+                    <span class="cantidad-canciones">3 canciones</span>
+                </div>
+            </a>
+        </div>
+
+        <footer class="pie-pagina">
+            <a href="#inicio" class="enlace-pie">Volver al Inicio</a>
+            <p>SONAR 2024 - Todos los derechos reservados</p>
+        </footer>
+    </main>
+
+    <!-- Modal Bad Bunny -->
+    <section id="badbunny" class="modal-artista">
+        <div class="modal-fondo"></div>
+        <div class="modal-contenido">
+            <a href="#menu" class="boton-cerrar">&#10005;</a>
+            <div class="modal-cabecera">
+                <img src="imagenes/bad-bunny.png" alt="Bad Bunny" class="modal-imagen">
+                <div class="modal-info">
+                    <h2>Bad Bunny</h2>
+                    <p>Reggaeton / Latino</p>
+                </div>
+            </div>
+            <div class="lista-canciones">
+                <div class="cancion-item">
+                    <span class="numero-cancion">01</span>
+                    <div class="info-cancion">
+                        <h4>Titi Me Pregunto</h4>
+                        <p>Un Verano Sin Ti</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/bad-bunny-titi-me-pregunto.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">02</span>
+                    <div class="info-cancion">
+                        <h4>Me Porto Bonito</h4>
+                        <p>ft. Chencho Corleone - Un Verano Sin Ti</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/bad-bunny-me-porto-bonito.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">03</span>
+                    <div class="info-cancion">
+                        <h4>Callaita</h4>
+                        <p>Single</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/bad-bunny-callaita.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">04</span>
+                    <div class="info-cancion">
+                        <h4>Dakiti</h4>
+                        <p>ft. Jhay Cortez</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/bad-bunny-dakiti.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+            <a href="#menu" class="boton-regresar">Regresar al Menu Principal</a>
+        </div>
+    </section>
+
+    <!-- Modal Nicky Jam -->
+    <section id="nickyjam" class="modal-artista">
+        <div class="modal-fondo"></div>
+        <div class="modal-contenido">
+            <a href="#menu" class="boton-cerrar">&#10005;</a>
+            <div class="modal-cabecera">
+                <img src="imagenes/nicky-jam.png" alt="Nicky Jam" class="modal-imagen">
+                <div class="modal-info">
+                    <h2>Nicky Jam</h2>
+                    <p>Reggaeton / Urbano</p>
+                </div>
+            </div>
+            <div class="lista-canciones">
+                <div class="cancion-item">
+                    <span class="numero-cancion">01</span>
+                    <div class="info-cancion">
+                        <h4>X (Equis)</h4>
+                        <p>ft. J Balvin</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/nicky-jam-equis.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+            <a href="#menu" class="boton-regresar">Regresar al Menu Principal</a>
+        </div>
+    </section>
+
+    <!-- Modal Billie Eilish -->
+    <section id="billieeilish" class="modal-artista">
+        <div class="modal-fondo"></div>
+        <div class="modal-contenido">
+            <a href="#menu" class="boton-cerrar">&#10005;</a>
+            <div class="modal-cabecera">
+                <img src="imagenes/billie-eilish.png" alt="Billie Eilish" class="modal-imagen">
+                <div class="modal-info">
+                    <h2>Billie Eilish</h2>
+                    <p>Pop / Alternativo</p>
+                </div>
+            </div>
+            <div class="lista-canciones">
+                <div class="cancion-item">
+                    <span class="numero-cancion">01</span>
+                    <div class="info-cancion">
+                        <h4>Bad Guy</h4>
+                        <p>When We All Fall Asleep, Where Do We Go?</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/billie-eilish-bad-guy.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">02</span>
+                    <div class="info-cancion">
+                        <h4>Everything I Wanted</h4>
+                        <p>Single</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/billie-eilish-everything-i-wanted.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">03</span>
+                    <div class="info-cancion">
+                        <h4>Lovely</h4>
+                        <p>ft. Khalid</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/billie-eilish-lovely.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">04</span>
+                    <div class="info-cancion">
+                        <h4>Ocean Eyes</h4>
+                        <p>Dont Smile at Me</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/billie-eilish-ocean-eyes.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+            <a href="#menu" class="boton-regresar">Regresar al Menu Principal</a>
+        </div>
+    </section>
+
+    <!-- Modal Shakira -->
+    <section id="shakira" class="modal-artista">
+        <div class="modal-fondo"></div>
+        <div class="modal-contenido">
+            <a href="#menu" class="boton-cerrar">&#10005;</a>
+            <div class="modal-cabecera">
+                <img src="imagenes/shakira.png" alt="Shakira" class="modal-imagen">
+                <div class="modal-info">
+                    <h2>Shakira</h2>
+                    <p>Pop Latino / Dance</p>
+                </div>
+            </div>
+            <div class="lista-canciones">
+                <div class="cancion-item">
+                    <span class="numero-cancion">01</span>
+                    <div class="info-cancion">
+                        <h4>Waka Waka (Esto es Africa)</h4>
+                        <p>Cancion Oficial Copa Mundial FIFA 2010</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/shakira-waka-waka.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">02</span>
+                    <div class="info-cancion">
+                        <h4>Hips Dont Lie</h4>
+                        <p>ft. Wyclef Jean</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/shakira-hips-dont-lie.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                <div class="cancion-item">
+                    <span class="numero-cancion">03</span>
+                    <div class="info-cancion">
+                        <h4>Chantaje</h4>
+                        <p>ft. Maluma</p>
+                    </div>
+                    <audio controls>
+                        <source src="audios/shakira-chantaje.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+            <a href="#menu" class="boton-regresar">Regresar al Menu Principal</a>
+        </div>
+    </section>
+
+</body>
+</html>
